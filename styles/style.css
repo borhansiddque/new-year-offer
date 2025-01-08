@@ -1,3 +1,6 @@
+/* Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -10,4 +13,55 @@ li {
 
 a {
     text-decoration: none;
+}
+
+body {
+    font-family: "Inter", serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Merriweather", serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Section Style */
+header {
+    padding-top: 50px;
+}
+
+/* Hero Section Style */
+
+.hero-section {
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 170px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.hero-section-content {
+    text-align: center;
+    color: #fff;
+    width: 50%;
+}
+
+.hero-subtitle {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    margin-top: 25px;
 }
