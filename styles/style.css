@@ -40,7 +40,7 @@ header {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 170px 0px;
+    padding: 150px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@ header {
 .hero-section-content {
     text-align: center;
     color: #fff;
-    width: 50%;
+    width: 60%;
 }
 
 .hero-subtitle {
@@ -64,4 +64,51 @@ header {
     font-weight: 900;
     line-height: 95px;
     margin-top: 25px;
+}
+
+/* 65% Off Section Style */
+.percent-off {
+    margin: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percent-off-container {
+    text-align: center;
+}
+
+.percent-off-text {
+    color: #ff0000;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    font-family: "Inter", serif;
+}
+
+.percent-off-titles-container {
+    margin: 40px 0px;
+}
+
+.percent-off-subtitle {
+    color: #ff0000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+} 
+
+.percent-off-title {
+    color: #070211;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-top: 16px;
+}
+
+.percent-off-img {
+    width: 410px;
+}
+
+.percent-off-img img {
+    width: 100%;
 }
