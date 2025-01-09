@@ -28,6 +28,14 @@ h1, h2, h3, h4, h5 {
     margin: 0 auto;
 }
 
+.paragraph {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* Header Section Style */
 header {
     padding-top: 50px;
@@ -111,4 +119,38 @@ header {
 
 .percent-off-img img {
     width: 100%;
+}
+
+/* Midnight Party Section Style */
+.midnight-party {
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/midnight-party-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.midnight-party-title {
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 3px;
+}
+
+.midnight-party-content .paragraph {
+    margin: 20px 0px 30px;
+}
+
+.midnight-party-btn a {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
 }
