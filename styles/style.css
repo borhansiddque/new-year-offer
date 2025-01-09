@@ -404,4 +404,55 @@ header {
     outline: none;
     color: #fff;
     background-color: #ff0000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Footer Section Style */
+footer {
+    padding: 100px 0px;
+    background-color: #070211;
+    color: #fff;
+}
+
+.footer-first-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-contact-item img {
+    width: 24px;
+}
+
+.footer-social-section {
+    padding: 40px 0px;
+    border-top: 2px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-social-section img {
+    width: 55px;
+    cursor: pointer;
+}
+
+.footer-last-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
 }
