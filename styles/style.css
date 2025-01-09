@@ -351,3 +351,57 @@ header {
 .portfolio-image-container img {
     width: 340px;
 }
+
+/* Newsletter Section Style */
+.newsletter-container {
+    margin: 120px 0px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    padding: 80px;
+}
+
+.newsletter-content {
+    text-align: center;
+}
+
+.newsletter-content img {
+    width: 120px;
+}
+
+.newsletter-title {
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 30px 0px 20px;
+}
+
+.newsletter-content p.paragraph {
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 45px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-email {
+    padding: 25px;
+    border: none;
+    outline: none;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 50px 0px 0px 50px;
+}
+
+.newsletter-btn {
+    padding: 25px 50px;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #ff0000;
+}
